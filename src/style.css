@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(29, 32, 39);
+    margin: 0;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    overflow-y: auto; 
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-left: 10vw;
+}
+
+.canvas-container {
+    background-color: #414b8e;
+    width: 90vw;
+    height: 70vh;
+    margin: 0 auto 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.canvas {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: #f0f0f0;
+    cursor: none;
+}
